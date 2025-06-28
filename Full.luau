@@ -22,7 +22,7 @@ Compkiller:Loader("rbxassetid://120245531583106" , 2.5).yield();
 
 -- Creating Window --
 local Window = Compkiller.new({
-	Name = "COMPKILLER",
+	Name = "ProCore | Test",
 	Keybind = "LeftAlt",
 	Logo = "rbxassetid://120245531583106",
 	Scale = Compkiller.Scale.Window, -- Leave blank if you want automatic scale [PC, Mobile].
@@ -32,8 +32,8 @@ local Window = Compkiller.new({
 -- Notification --
 
 Notifier.new({
-	Title = "Notification",
-	Content = "Thank you for use this script!",
+	Title = "Hey!",
+	Content = "Welcome to ProCore Script!",
 	Duration = 10,
 	Icon = "rbxassetid://120245531583106"
 });
@@ -43,7 +43,7 @@ local Watermark = Window:Watermark();
 
 Watermark:AddText({
 	Icon = "user",
-	Text = "4lpaca",
+	Text = "ProCore123",
 });
 
 Watermark:AddText({
