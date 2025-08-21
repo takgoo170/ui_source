@@ -3,13 +3,13 @@ local Starlight = loadstring(game:HttpGet("https://raw.githubusercontent.com/Neb
 local NebulaIcons = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-Softworks/Nebula-Icon-Library/master/Loader.lua"))() --loads modules that allow 100% support for Lucide and Material Icons
 
 local Window = Starlight:CreateWindow({
-    Name = "MyScript",
+    Name = "Kai Hub | Example",
     Subtitle = "v1.0",
     Icon = 123456789, -- Replace with your icon ID
 
     LoadingSettings = {
-        Title = "My Script Hub",
-        Subtitle = "by You",
+        Title = "Kai Hub",
+        Subtitle = "by Kai",
     },
 
     ConfigurationSettings = { -- Not Implemented Yet
@@ -151,4 +151,5 @@ local Dropdown = TLabel:AddDropdown({
     Callback = function(v)
         print("Team Selected:", v)
     end,
+
 }, "INDEX")
