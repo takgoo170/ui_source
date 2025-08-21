@@ -199,4 +199,5 @@ end)
 General:Button("Join Server", function()
     print("Teleporting to Job ID...") -- Ganti dengan teleport logic jika diperlukan
 end)
+
 -- loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/FoggyObfuscator/refs/heads/main/script"))()
